@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        Registration
+    </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            border: 10px solid black;
+            margin: 100px;
+            height: 1000px;
+            width: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .registration {
+            padding: 20px;
+            height: 500px;
+            width: 400px;
+            background: linear-gradient(to bottom right,rgb(49, 138, 136), rgb(12, 58, 110));
+        }
+
+        .title{
+            background: url("Email.png") no-repeat left center;
+            justify-content: space-evenly;
+        }
+        .registration h1{
+            margin-left: 35px;
+        }
+
+        .registration form{
+           align-items: center;
+           text-align: center;
+        }
+        .input-elements
+        {
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .registration input{
+            width: 200px;
+            height: 20px;
+            margin-top: 20px;
+            background-color: transparent;
+            box-shadow: 0px 0px 100px rgb(163,210,219);
+            color: black;
+            border-radius: 2px;
+        }
+
+        .registration:target[type="text"]{
+            width: 90%;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="sayt">
+
+        <div class="registration">
+
+            <div class="input-fields">
+
+                <div class="title">
+                    <h1>
+                        Contact <span>us</span>
+                    </h1>
+                </div>
+
+                <form action="#" class="input-elements">
+                    <label for="name">
+                        <input type="text" id="name" placeholder="Name">
+                    </label> <br>
+
+                    <label for="email">
+                        <input type="email" id="email" placeholder="Email">
+                    </label> <br>
+
+                    <label for="website">
+                        <input type="text" id="wesbite" placeholder="Website">
+                    </label> <br>
+
+                    <label for="subject">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </label> <br>
+
+                    <label for="comment">
+                        <input type="text" id="comment" placeholder="Type yoessage here">
+                    </label> <br>
+
+                    <label for="submit">
+                        <input type="submit" id="submit" placeholder="Send">
+                    </label> <br>
+
+
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
